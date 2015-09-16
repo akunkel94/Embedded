@@ -134,12 +134,6 @@ void APP_Initialize ( void )
     
     Timer_Initialize();
     
-   /* TimerHandle_t xtimer = NULL;
-    TickType_t period = ( 50 / portTICK_PERIOD_MS);
-    
-    xtimer = xTimerCreate("Timer", period, pdTRUE, 0, TimerCallback);
-    xTimerStart(xtimer, 0);*/
-    
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
@@ -201,18 +195,6 @@ void ErrorRoutine( void )
         
     }
 }
- 
-/*void TimerCallback(TimerHandle_t xTimer)
-{
-    unsigned char value;
-    value = Name[counter];
-    xQueueSend( xQueue, &value, 0 );
-    counter++;
-    if(counter == 16)
-    {
-        counter = 0;
-    }
-}*/
 
 /*******************************************************************************
  End of File

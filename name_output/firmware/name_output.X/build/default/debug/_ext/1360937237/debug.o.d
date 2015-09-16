@@ -1,7 +1,7 @@
-build/default/debug/_ext/1360937237/app.o:  \
-../src/app.c  \
-../src/app.h  \
- ../src/system_config/default/system_config.h  \
+build/default/debug/_ext/1360937237/debug.o:  \
+../src/debug.c  \
+ ../src/debug.h  \
+../src/system_config/default/system_config.h  \
  ../src/system_config/default/system_definitions.h  \
  ../../../../framework/system/common/sys_common.h  \
  ../../../../framework/system/common/sys_module.h  \
@@ -113,7 +113,4 @@ build/default/debug/_ext/1360937237/app.o:  \
 ../src/app.h  \
  ../../../../third_party/rtos/FreeRTOS/Source/include/queue.h  \
  ../../../../third_party/rtos/FreeRTOS/Source/include/timers.h  \
- ../../../../third_party/rtos/FreeRTOS/Source/include/task.h  \
- ../src/app_public.h  \
-../src/app_timer.h  \
-../src/debug.h 
+ ../../../../third_party/rtos/FreeRTOS/Source/include/task.h 
